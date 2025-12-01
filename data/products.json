@@ -1,0 +1,29 @@
+[
+  {
+    "product_name": "Custom Embroidered Crewneck",
+    "price": 58,
+    "badge": "Bestseller",
+    "image_url": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=600&q=80",
+    "description": "Soft fleece crew with bespoke stitching.",
+    "rating": 4.9,
+    "reviews": 812
+  },
+  {
+    "product_name": "Minimal Ceramic Planter",
+    "price": 32,
+    "badge": "Handmade",
+    "image_url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=600&q=80",
+    "description": "Wheel-thrown stoneware planter with matte glaze.",
+    "rating": 4.8,
+    "reviews": 421
+  },
+  {
+    "product_name": "Leather Travel Journal",
+    "price": 44,
+    "badge": "Gift pick",
+    "image_url": "https://images.unsplash.com/photo-1473186578172-c141e6798cf4?auto=format&fit=crop&w=600&q=80",
+    "description": "Refillable journal with personalization option.",
+    "rating": 4.7,
+    "reviews": 263
+  }
+]

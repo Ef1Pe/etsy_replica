@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etsy | Handmade & Vintage Marketplace Replica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Work+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="bg-[#f5f5f1] text-[#222]">
+    <div class="min-h-screen">
+        <header class="bg-white border-b border-[#e4e2dc] sticky top-0 z-30 shadow-sm">
+            <div class="max-w-screen-xl mx-auto px-6">
+                <div class="flex items-center justify-between gap-6 py-4">
+                    <a href="/" class="text-3xl font-semibold text-[#f1641e] tracking-tight">Etsy</a>
+                    <div class="hidden lg:flex items-center gap-6 text-sm font-medium text-[#2f2f2f]">
+                        <a class="hover:text-[#f1641e]" href="categories.html">Categories</a>
+                        <a class="hover:text-[#f1641e]" href="gifts.html">Gifts</a>
+                        <a class="hover:text-[#f1641e]" href="cyber-specials.html">Shop Cyber Specials</a>
+                        <a class="hover:text-[#f1641e]" href="home-favorites.html">Home Favorites</a>
+                        <a class="hover:text-[#f1641e]" href="fashion-finds.html">Fashion Finds</a>
+                        <a class="hover:text-[#f1641e]" href="registry.html">Registry</a>
+                    </div>
+                    <div class="flex-1 hidden lg:flex">
+                        <label class="w-full relative">
+                            <span class="sr-only">Search</span>
+                            <input type="search" placeholder="Search for anything" class="peer search-input" />
+                            <button class="search-button" aria-label="Search">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" />
+                                </svg>
+                            </button>
+                        </label>
+                    </div>
+                    <div class="flex items-center gap-4 text-[#2f2f2f]">
+                        <button class="inline-flex items-center gap-2 text-sm font-semibold tracking-tight">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 5h18M8 5v14m8-14v14M5 9h14M5 15h14" />
+                            </svg>
+                            Sign in
+                        </button>
+                        <button class="icon-button" aria-label="Favorites">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21c-4.35-4.14-7-6.38-7-10A4 4 0 0 1 12 7a4 4 0 0 1 7 4c0 3.62-2.65 5.86-7 10z" />
+                            </svg>
+                        </button>
+                        <button class="icon-button" aria-label="Cart">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l3-8H5.4" />
+                                <circle cx="9" cy="20" r="1" />
+                                <circle cx="17" cy="20" r="1" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-[#e4e2dc] bg-[#faf9f6]">
+                <div class="max-w-screen-xl mx-auto px-6 overflow-auto">
+                    <div class="flex gap-6 text-sm font-medium py-3 min-w-max">
+                        <button class="pill-button active">Gifts</button>
+                        <button class="pill-button">Home Favorites</button>
+                        <button class="pill-button">Fashion Finds</button>
+                        <button class="pill-button">Registry</button>
+                        <button class="pill-button">Toys</button>
+                        <button class="pill-button">Jewelry</button>
+                        <button class="pill-button">Holiday shop</button>
+                        <button class="pill-button">On Sale</button>
+                        <button class="pill-button">Etsy Picks</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="max-w-screen-xl mx-auto px-6 py-10 space-y-16">
+            <section class="grid gap-6 lg:grid-cols-3">
+                <article class="hero-card col-span-2">
+                    <div class="hero-content">
+                        <p class="text-sm tracking-wide uppercase text-white/80">Holiday Event</p>
+                        <h1 class="text-4xl lg:text-5xl font-semibold text-white leading-tight">Save big on special</h1>
+                        <p class="text-lg text-white/90">Get up to 60% off memorable gifts from small shops.</p>
+                        <button class="cta-button">Show some love</button>
+                        <p class="text-xs text-white/70">Offer at sellers' discretion. See shop for details.</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=900&q=80" alt="Joyful gift" class="hero-image" />
+                </article>
+                <div class="grid gap-6">
+                    <article class="promo-card bg-[#f9efe5]">
+                        <h3 class="text-xl font-semibold">Gift ideas for pets on sale</h3>
+                        <p class="text-sm text-[#5c5c5c]">Shop now</p>
+                        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=500&q=80" alt="Pet gifts" class="rounded-xl h-48 w-full object-cover" />
+                    </article>
+                    <article class="promo-card bg-white border border-[#e4e2dc]">
+                        <h3 class="text-xl font-semibold">Give cozy comfort</h3>
+                        <p class="text-sm text-[#5c5c5c]">Wrap them in warmth</p>
+                        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=80" alt="Cozy" class="rounded-xl h-48 w-full object-cover" />
+                    </article>
+                </div>
+            </section>
+
+            <section>
+                <div class="section-heading">
+                    <h2>Jump into featured interests</h2>
+                    <p>Curated for how you shop</p>
+                </div>
+                <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4" data-injection="featured-grid">
+                    <article class="interest-card">
+                        <img src="https://images.unsplash.com/photo-1523419409543-0c1df022bddb?auto=format&fit=crop&w=600&q=80" alt="Cribbage" />
+                        <div>
+                            <h3>Cribbage Essentials</h3>
+                            <p>Cards are calling</p>
+                        </div>
+                    </article>
+                    <article class="interest-card">
+                        <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=600&q=80" alt="Basketball" />
+                        <div>
+                            <h3>Basketball Essentials</h3>
+                            <p>Hyped for hoops</p>
+                        </div>
+                    </article>
+                    <article class="interest-card">
+                        <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80" alt="Lacrosse" />
+                        <div>
+                            <h3>Lacrosse Essentials</h3>
+                            <p>Catch and shoot</p>
+                        </div>
+                    </article>
+                    <article class="interest-card">
+                        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=600&q=80" alt="Archery" />
+                        <div>
+                            <h3>Archery Essentials</h3>
+                            <p>Aim for adventure</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="space-y-6">
+                <div class="section-heading">
+                    <h2>Discover our best of fall/winter 2025</h2>
+                    <p>New picks from independent sellers</p>
+                </div>
+                <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-6" data-injection="product-grid">
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=600&q=80" alt="Family traditions" />
+                        <h3>Best of Family Traditions</h3>
+                        <p>Handmade holiday matching sets.</p>
+                    </article>
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=600&q=80" alt="Ice skates" />
+                        <h3>Say howdy to the holidays</h3>
+                        <p>Fresh takes on winter classics.</p>
+                    </article>
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1516557070061-c3d1653fa646?auto=format&fit=crop&w=600&q=80" alt="Holiday decor" />
+                        <h3>Best of Holiday Decor</h3>
+                        <p>Festive touches in every room.</p>
+                    </article>
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=600&q=80" alt="Cozy finds" />
+                        <h3>Best of Cozy Finds</h3>
+                        <p>Soft textures and warming scents.</p>
+                    </article>
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80" alt="New arrivals" />
+                        <h3>New Arrivals</h3>
+                        <p>Fresh creations just dropped.</p>
+                    </article>
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=600&q=80" alt="Cozy" />
+                        <h3>Best of Cozy Gifts</h3>
+                        <p>Scarves, candles, and more.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="space-y-6">
+                <div class="section-heading">
+                    <div>
+                        <h2>Etsy-special gifts for Christmas</h2>
+                        <p>Gifts as special as they are</p>
+                    </div>
+                    <button class="pill-button !bg-white !text-[#2f2f2f] border border-[#dcd7cb]">Get inspired</button>
+                </div>
+                <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                    <article class="gift-card">
+                        <span class="gift-price">$15.27+</span>
+                        <img src="https://images.unsplash.com/photo-1511367466-95bfdd95a6ca?auto=format&fit=crop&w=600&q=80" alt="Gifts for her" />
+                        <h3>Gifts for Her</h3>
+                        <p>Thoughtful handmade keepsakes.</p>
+                    </article>
+                    <article class="gift-card">
+                        <span class="gift-price">$18.70</span>
+                        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80" alt="Pet gifts" />
+                        <h3>Pet Gifts</h3>
+                        <p>Festive collars & treats.</p>
+                    </article>
+                    <article class="gift-card">
+                        <span class="gift-price">$22.85</span>
+                        <img src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=600&q=80" alt="Friend gifts" />
+                        <h3>Gifts for Friends</h3>
+                        <p>Inside jokes turned keepsakes.</p>
+                    </article>
+                    <article class="gift-card">
+                        <span class="gift-price">$20.73</span>
+                        <img src="https://images.unsplash.com/photo-1518544801958-efcbf8a7ec10?auto=format&fit=crop&w=600&q=80" alt="Personalized" />
+                        <h3>Personalized Gifts</h3>
+                        <p>Names, dates, and etched details.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="space-y-6">
+                <h2 class="text-2xl font-semibold">Shop our most-loved categories</h2>
+                <div class="grid gap-4 sm:grid-cols-3 lg:grid-cols-7">
+                    <article class="category-chip">
+                        <span>Signs</span>
+                    </article>
+                    <article class="category-chip">
+                        <span>Seasonal decor</span>
+                    </article>
+                    <article class="category-chip">
+                        <span>Clothing</span>
+                    </article>
+                    <article class="category-chip">
+                        <span>Stickers</span>
+                    </article>
+                    <article class="category-chip">
+                        <span>Men's t-shirts</span>
+                    </article>
+                    <article class="category-chip">
+                        <span>Drawings</span>
+                    </article>
+                    <article class="category-chip">
+                        <span>Prints</span>
+                    </article>
+                </div>
+            </section>
+
+            <section class="space-y-4">
+                <div class="flex items-center gap-3">
+                    <h2 class="text-2xl font-semibold">Today's big deals</h2>
+                    <span class="text-sm text-[#5c5c5c] flex items-center gap-1">
+                        <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                        Fresh deals in <span data-countdown>17:50:41</span>
+                    </span>
+                </div>
+                <div class="relative">
+                    <button class="deal-nav prev" aria-label="Previous deal">&#10094;</button>
+                    <div class="deal-track" data-injection="deal-track">
+                        <!-- Items appended by JS -->
+                    </div>
+                    <button class="deal-nav next" aria-label="Next deal">&#10095;</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-[#2f2f2f] text-white py-10 mt-16">
+            <div class="max-w-screen-xl mx-auto px-6 grid gap-8 md:grid-cols-4 text-sm">
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Shop</h3>
+                    <ul class="space-y-1 text-white/80">
+                        <li>Gift cards</li>
+                        <li>Etsy blog</li>
+                        <li>United States</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Sell</h3>
+                    <ul class="space-y-1 text-white/80">
+                        <li>Sell on Etsy</li>
+                        <li>Teams</li>
+                        <li>Forums</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">About</h3>
+                    <ul class="space-y-1 text-white/80">
+                        <li>Etsy, Inc.</li>
+                        <li>Policies</li>
+                        <li>Investors</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Help</h3>
+                    <ul class="space-y-1 text-white/80">
+                        <li>Trust & safety</li>
+                        <li>Privacy settings</li>
+                        <li>Cookies</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-center text-xs text-white/70 mt-8">© 2025 Etsy Replica. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
